@@ -1,9 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Hello, World!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <link rel="stylesheet" href="/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/head.css">
+    <link rel="stylesheet" href="/css/mbody.css">
+    <link rel="stylesheet" href="/css/forPhone.css">
+    <link id="theme" rel="stylesheet" href="/css/theme/baseTheme.css">
 </head>
 
 <body>
-  <div>
-    这是我的个人主页。
-  </div>
+    <div id="main">
+        <!-- head部分 -->
+        <div class="mhead">
+            <!-- head的上半部分 -->
+            <div id="head_top">
+                <div style="flex-grow: 1;width: 100%;"></div>
+
+                <!-- 包含头像的那一条 -->
+                <div id="head1">
+                    <img name="avatar" id="avatar1" class="avatar1" src="/rec/avatar.png">
+                    <div>
+                        <div name="name" id="name1">我的名字</div>
+                        <div id="motto"> 大家好 我的名字是和同学 我又叫赛博顶针</div>
+                    </div>
+                </div>
+            </div>
+            <!-- head的下半部分 -->
+            <div id="head_bottom" class="head_bottom">
+                <div id="head2">
+                    <img name="avatar" id="avatar2" src="/rec/avatar.png">
+                    <span name="name" id="name2">大家好 </span>
+                </div>
+                <ul id="selects">
+                    <li onclick="selectAllClick()">
+                        <div class="aselect" id="aselect_all">
+                            全部
+                        </div>
+                    </li>
+                </ul>
+                <div id="search">
+                    <div id="search_box" class="search_box">
+                        <input type="text" class="search_text">
+                        <a  href="javascript:searchButtonClick();"><i class="search_button fa fa-search" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div id="numbers">
+                    <div style="margin: 8px;color: #333333;">
+                        <p style="text-align: center;font-size: 15px;margin: 4px;">运行天数</p>
+                        <p id="run_day" style="text-align: center;font-size: 14px;margin: 4px;">0</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- main_body部分 -->
+        <div class="mbody" id="mbody">
+            <!-- 竖左边栏 -->
+            <div id="mbody_left">
+                <div class="content_block">
+                    <!-- <div style="height: 50px;width: 100%;font-size: 25px;">我的博客</div> -->
+                    <h2>我的博客</h2>
+                    <div class="split_line"></div>
+                    <!-- <hr style="background-color: #eee;height: 1px;border-style: none;"> -->
+                    <div id="blogs">                     
+
+                    </div>
+                </div>
+            </div>
+            <!-- 竖右边栏 -->
+            <div id="mbody_right">
+                
+            </div>
+
+        </div>
+    </div>
 </body>
+<footer id="foot">
+    
+</footer>
+
+<script src="index.js"></script>
+
+</html>

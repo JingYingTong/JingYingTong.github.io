@@ -1,0 +1,88 @@
+/*   main body 代表head下面容纳博客的地方   */
+.mbody {
+    margin-top: 14px;
+    display: flex;
+
+}
+
+.mbody #mbody_left {
+    padding: 0px;
+    width: 69.5%;
+}
+
+.mbody #mbody_right {
+    margin-left: 1%;
+    padding: 0px;
+    width: 29.5%;
+}
+
+.mbody .content_block {
+    border-style: none;
+    border-width: 2px;
+    border-color: #ffffff60;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height: max-content;
+    width: auto;
+    margin-top: 10px;
+}
+
+
+.mbody .ablog {
+    display: flex;
+    width: 100%;
+}
+
+.mbody .ablog .blog_text {
+    flex-grow: 1;/*text占满全部的剩余空间*/
+    padding-left: 15px;
+}
+
+.mbody .ablog .blog_text p {
+    margin: 0;
+}
+
+.mbody .ablog .blog_text .blog_title {
+    display: flex;
+}
+
+.mbody .ablog .blog_title .blog_lable {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.mbody .ablog img {
+    margin: 10px;
+    margin-left: 15px;
+    height: 120px;
+    width: 120px;
+    border-radius: 4px;
+}
+.mbody .ablog .nullimg {
+    margin: 10px;
+    margin-right: 15px;
+    height: 120px;
+    width: 120px;
+}
+
+.split_line {
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+}
+
+
+#foot {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#foot .footer_line{
+    color: #555;
+    font-size: 18px;
+}
+#foot .footer_line img{
+    width: 16px;
+}

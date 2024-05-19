@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="head_title">文章</title>
+</head>
+<style>
+    body {
+        background-color: #f3f3f3;
+    }
+
+    .main {
+        background-color: #ffffff;
+        margin-top: 12px;
+        width: auto;
+        margin-left: 13%;
+        margin-right: 13%;
+        min-height: 92vh;
+        border-radius: 5px;
+        padding-top: 2%;
+    }
+
+    .main .head {
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+
+    .main .head #title {
+        font-size: 30px;
+
+    }
+
+    .main .head #informations {
+        font-size: 15px;
+        color: #55555555;
+        display: flex;
+    }
+    .main .head #informations .information{
+        margin-right: 30px;
+    }
+
+    .main .mbody {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        font-size: 23px;
+        line-height: 1.5;
+    }
+
+    .main .mbody img {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    @media screen and (orientation: portrait){
+        .main{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        #informations{
+            flex-direction: column;
+        }
+    }
+</style>
+
+<body>
+    <div id="head_text" style="font-size: 12px;margin-left: 15%;">测试</div>
+    <div class="main">
+        <div class="head">
+            <h1 id="title">测试文章</h1>
+            <div id="informations">
+                <!--示例
+                     <div class="information">2023年1月10日</div> 
+                -->
+            </div>
+        </div>
+
+        <div
+            style="height: 1.3px;width: 90%;margin-left: auto;margin-right: auto;margin-top: 9px;margin-bottom: 9px; background-color: #ccc;">
+        </div>
+
+        <div class="mbody" id="mbody">
+            <!-- 文章插入到这里 -->
+        </div>
+    </div>
+</body>
+
+<script>
+
+    //通过html传参 参数内容为使用bilimode打开的文章id
+    var id = location.search;
+    id = id.slice(id.indexOf("=") + 1)
+
+    //更新文章内容
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            data = xhr.responseText;
+            console.log(data);
+            document.getElementById("mbody").innerHTML += data;
+        }
+    }
+    xhr.open("GET", "./" + id + "/index.html")
+    xhr.send();
+
+    //更新文章信息
+    xhr1=new XMLHttpRequest();
+    xhr1.onreadystatechange=()=>{
+        if (xhr1.readyState==4&&xhr.status==200) {
+            data=JSON.parse(xhr1.responseText);
+            console.log(data);
+            document.getElementById("title").innerHTML=data.title;
+            document.getElementById("head_title").innerHTML=data.title;
+            document.getElementById("head_text").innerHTML=data.headtext;
+            informations=document.getElementById("informations");
+            data.informations.forEach(element => {
+                informations.innerHTML+="<div class=\"information\">"+element+"</div> "
+            });
+        }
+    }
+    xhr1.open("GET","./"+id+"/informations.json")
+    xhr1.send();
+</script>
+
+</html>
