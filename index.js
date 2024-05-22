@@ -1,1 +1,353 @@
-var _0x30692d=_0x2961;(function(_0x970a9f,_0x5b31f8){var _0x5529dc=_0x2961,_0x53895a=_0x970a9f();while(!![]){try{var _0x4496e7=-parseInt(_0x5529dc(0x153))/0x1*(parseInt(_0x5529dc(0x162))/0x2)+-parseInt(_0x5529dc(0x161))/0x3*(parseInt(_0x5529dc(0x179))/0x4)+parseInt(_0x5529dc(0x150))/0x5+parseInt(_0x5529dc(0x17e))/0x6+-parseInt(_0x5529dc(0x177))/0x7+-parseInt(_0x5529dc(0x16c))/0x8*(parseInt(_0x5529dc(0x18a))/0x9)+parseInt(_0x5529dc(0x18e))/0xa;if(_0x4496e7===_0x5b31f8)break;else _0x53895a['push'](_0x53895a['shift']());}catch(_0x2a6db1){_0x53895a['push'](_0x53895a['shift']());}}}(_0x4689,0x38f14));function setAllAselectBackgroundWrite(){var _0x13dd0b=_0x2961,_0x516c40=document['getElementsByClassName'](_0x13dd0b(0x183));for(let _0x3d2c3f=0x0;_0x3d2c3f<_0x516c40[_0x13dd0b(0x166)];_0x3d2c3f++){const _0x1add07=_0x516c40[_0x3d2c3f];_0x1add07[_0x13dd0b(0x147)][_0x13dd0b(0x13f)]=_0x13dd0b(0x146);}}var essays,activeEssays,contentBlocks,abouts;function updateIterface(){var _0x73877a=_0x2961;updateOne(_0x73877a(0x140),updateHead),updateOne(_0x73877a(0x163),updateContentBlock),updateOne('./json/essays.json',updateEssays),updateOne('./json/essays.json',updataSelects),updateOne(_0x73877a(0x138),updateFooter),updateOne(_0x73877a(0x187),updateApperance),updateNumbers(),document[_0x73877a(0x13a)]('aselect_all')[_0x73877a(0x147)][_0x73877a(0x13f)]=_0x73877a(0x17d);}function updateOne(_0xd56e2c,_0x4420c9){var _0x2e10ee=_0x2961,_0x3f18ea=new XMLHttpRequest();_0x3f18ea['onreadystatechange']=()=>{var _0x1ca57a=_0x2961;_0x3f18ea[_0x1ca57a(0x165)]==0x4&&_0x3f18ea[_0x1ca57a(0x14e)]===0xc8&&(data=JSON['parse'](_0x3f18ea[_0x1ca57a(0x171)]),_0x4420c9(data));},_0x3f18ea[_0x2e10ee(0x158)](_0x2e10ee(0x154),_0xd56e2c,!![]),_0x3f18ea[_0x2e10ee(0x172)]();}function updateNumbers(){var _0x52e64c=_0x2961;let _0x3d2ad5=new Date(),_0x158f7e=new Date(_0x52e64c(0x139)),_0x40be5c=Math[_0x52e64c(0x130)]((_0x3d2ad5-_0x158f7e)/0x5265c00);document[_0x52e64c(0x13a)]('run_day')[_0x52e64c(0x15e)]=_0x40be5c;}function updateHead(_0x41b86e){var _0x20ccc8=_0x2961;abouts=_0x41b86e,document[_0x20ccc8(0x13a)]('motto')[_0x20ccc8(0x15e)]=_0x41b86e[_0x20ccc8(0x131)],a=document['getElementsByName'](_0x20ccc8(0x14c)),a['forEach'](_0x33967e=>{var _0x124366=_0x20ccc8;_0x33967e[_0x124366(0x181)]=_0x124366(0x16f)+_0x41b86e[_0x124366(0x14c)];}),n=document[_0x20ccc8(0x141)]('name'),n[_0x20ccc8(0x13e)](_0x55c1a0=>{_0x55c1a0['innerHTML']=_0x41b86e['name'];});}function _0x4689(){var _0xf9c4aa=['classList','search_text','#ffffff','style','remove','scrollY','<div\x20class=\x22blog_text\x22>\x20<div\x20class=\x22blog_title\x22><h3>','getElementsByClassName','avatar','<img\x20src=\x22./rec/','status','amode','2043935rwXyDF','offsetHeight','picture','2cGxmwj','GET','mbody_right','bilimode','lable','open','<img\x20src=\x22','essaysClick(','<div\x20class=\x22nullimg\x22></div>','</div><p>','setAttribute','innerHTML','head_bottom_fixed','./essays/','3zYFgdq','259394deUUsq','./json/contentBlocks.json','aselect_','readyState','length','content_block','文章类型错误，无法打开','<div\x20class=\x22blog_lable\x22></div>','addEventListener','log','570352CrJvxI','mode','add','./rec/','blogs','responseText','send','_blank','search_box_focus','icon','<div\x20class=\x22blog_lable\x22>标签：','2656633RHvmks','items','1720316zAXDXs','createElement','</p></div>','./essays/bilimodeview.html?','#eee','1069182FGDYVa','foot','selects','src','blur','aselect','</div>','offsetTop','includes','./json/theme.json','<br>','<div\x20class=\x22aselect\x22\x20id=\x22aselect_','45KwNrji','target','text','className','10717140gZKTus','search_box','push','floor','motto','<div\x20style=\x22height:\x2050px;width:\x20100%;font-size:\x2020px;\x22>','appendChild','focus','\x20<div\x20class=\x22split_line\x22></div>','htmlmode','value','./json/footer.json','2024-01-07','getElementById','theme','head_bottom','onclick','forEach','backgroundColor','./json/abouts.json','getElementsByName','title','scroll'];_0x4689=function(){return _0xf9c4aa;};return _0x4689();}function updateEssays(_0xc539ae){essays=_0xc539ae,activeEssays=_0xc539ae,updateActiveEssays();}function updateActiveEssays(){var _0x1de402=_0x2961,_0x479fac=document['getElementById']('blogs');_0x479fac[_0x1de402(0x15e)]=null;for(let _0x3dad99=0x0;_0x3dad99<activeEssays['length'];_0x3dad99++){var _0x45084c=createBlog(activeEssays[_0x3dad99],_0x3dad99);_0x479fac[_0x1de402(0x133)](_0x45084c);}}function updateContentBlock(_0x1feb39){var _0x1ae0a2=_0x2961;contentBlocks=_0x1feb39;var _0x5a8b9a=document[_0x1ae0a2(0x13a)](_0x1ae0a2(0x155));for(let _0x1f2759=0x0;_0x1f2759<_0x1feb39[_0x1ae0a2(0x166)];_0x1f2759++){var _0x4f15f1=createContentBlock(_0x1feb39[_0x1f2759]);_0x5a8b9a['appendChild'](_0x4f15f1);}}function _0x2961(_0x595e0a,_0x23f8c2){var _0x468982=_0x4689();return _0x2961=function(_0x296137,_0x476c49){_0x296137=_0x296137-0x12f;var _0x2bb7cb=_0x468982[_0x296137];return _0x2bb7cb;},_0x2961(_0x595e0a,_0x23f8c2);}function updataSelects(_0x18b4ee){var _0x4cd0e5=_0x2961,_0x2d9cf2=new Set();for(let _0x262e68=0x0;_0x262e68<_0x18b4ee[_0x4cd0e5(0x166)];_0x262e68++){const _0x34a5f4=_0x18b4ee[_0x262e68];_0x34a5f4[_0x4cd0e5(0x157)]!=null&&_0x2d9cf2['add'](_0x34a5f4['lable']);}var _0x48f828=document[_0x4cd0e5(0x13a)](_0x4cd0e5(0x180));console[_0x4cd0e5(0x16b)](_0x2d9cf2),_0x2d9cf2[_0x4cd0e5(0x13e)](_0x432254=>{_0x48f828['append'](createAselectLable(_0x432254));});}function updateFooter(_0x2f45bd){var _0x1f38a5=_0x2961,_0x2ebc84=document[_0x1f38a5(0x13a)](_0x1f38a5(0x17f));for(let _0x8f06c8=0x0;_0x8f06c8<_0x2f45bd[_0x1f38a5(0x166)];_0x8f06c8++){var _0x497508=createFooter(_0x2f45bd[_0x8f06c8]);_0x2ebc84[_0x1f38a5(0x133)](_0x497508);}}function updateApperance(_0x4e2341){var _0x3ee27b=_0x2961;document['getElementById'](_0x3ee27b(0x13b))['href']=_0x4e2341[_0x3ee27b(0x13b)];}function createBlog(_0xc39ae,_0x9adcb9){var _0xb32f8=_0x2961,_0x272ba9=document[_0xb32f8(0x17a)]('div');return h='',_0xc39ae[_0xb32f8(0x152)]!=null?h+=_0xb32f8(0x14d)+_0xc39ae['picture']+'\x22\x20>':h+=_0xb32f8(0x15b),h+=_0xb32f8(0x14a)+_0xc39ae[_0xb32f8(0x142)]+'</h3>',_0xc39ae['lable']!=null?h+=_0xb32f8(0x176)+_0xc39ae[_0xb32f8(0x157)]+_0xb32f8(0x184):h+=_0xb32f8(0x169),h+=_0xb32f8(0x15c)+_0xc39ae[_0xb32f8(0x18c)]+_0xb32f8(0x17b),_0x272ba9['innerHTML']=h,_0x272ba9[_0xb32f8(0x18d)]='ablog',_0x272ba9['id']='blog_'+_0x9adcb9,_0x272ba9['setAttribute']('onclick',_0xb32f8(0x15a)+_0x9adcb9+')'),_0x272ba9;}function createAselectLable(_0x2460a4){var _0x690113=_0x2961,_0x5802fa=document['createElement']('li');return _0x5802fa[_0x690113(0x15e)]=_0x690113(0x189)+_0x2460a4+'\x22>\x20'+_0x2460a4+'\x20</div>',_0x5802fa[_0x690113(0x15d)](_0x690113(0x13d),'selectClick(\x22'+_0x2460a4+'\x22)'),_0x5802fa;}function createContentBlock(_0x42dfe3){var _0x153061=_0x2961,_0x10bc05=document[_0x153061(0x17a)]('div');_0x10bc05['id']=_0x42dfe3['id'],_0x10bc05['className']=_0x153061(0x167),_0x10bc05['innerHTML']=_0x153061(0x132)+_0x42dfe3[_0x153061(0x142)]+_0x153061(0x184),_0x10bc05[_0x153061(0x15e)]+=_0x153061(0x135);for(let _0x279b2d=0x0;_0x279b2d<_0x42dfe3['items']['length'];_0x279b2d++){const _0x22e79c=_0x42dfe3[_0x153061(0x178)][_0x279b2d];_0x10bc05[_0x153061(0x15e)]+=_0x22e79c+_0x153061(0x188);}return _0x10bc05;}function createFooter(_0x2be91c){var _0x345678=_0x2961,_0xde24b0=document[_0x345678(0x17a)]('a');_0xde24b0[_0x345678(0x18d)]='footer_line',_0xde24b0['href']=_0x2be91c['a'],_0xde24b0[_0x345678(0x18b)]=_0x345678(0x173);var _0x1a9180='';return _0x2be91c[_0x345678(0x175)]!=''&&(_0x1a9180+=_0x345678(0x159)+_0x2be91c[_0x345678(0x175)]+'\x22>'),_0x1a9180+='&#32;',_0x1a9180+=_0x2be91c[_0x345678(0x18c)],_0xde24b0['innerHTML']=_0x1a9180,_0xde24b0;}window['onload']=()=>{updateIterface(),addSearchEvent();};function essaysClick(_0x150d58){var _0x2fc168=_0x2961;switch(activeEssays[_0x150d58][_0x2fc168(0x16d)]){case _0x2fc168(0x136):window['open'](_0x2fc168(0x160)+activeEssays[_0x150d58]['id']+'/index.html','_blank');break;case _0x2fc168(0x156):window['open'](_0x2fc168(0x17c)+'id='+activeEssays[_0x150d58]['id'],'_blank');break;case _0x2fc168(0x14f):window[_0x2fc168(0x158)](_0x2fc168(0x160)+activeEssays[_0x150d58]['id']+'/index.html',_0x2fc168(0x173));break;default:console['error'](_0x2fc168(0x168));break;}}function searchButtonClick(){var _0x35b39e=_0x2961;s=document[_0x35b39e(0x14b)](_0x35b39e(0x145))[0x0][_0x35b39e(0x137)],a=[];for(let _0x3b4bc0=0x0;_0x3b4bc0<activeEssays[_0x35b39e(0x166)];_0x3b4bc0++){const _0x41d853=activeEssays[_0x3b4bc0];if(_0x41d853[_0x35b39e(0x142)]['includes'](s))a[_0x35b39e(0x12f)](_0x41d853);else _0x41d853[_0x35b39e(0x18c)][_0x35b39e(0x186)](s)&&a[_0x35b39e(0x12f)](_0x41d853);}activeEssays=a,updateActiveEssays();}function addSearchEvent(){var _0x70e798=_0x2961;let _0x32459f=document[_0x70e798(0x14b)](_0x70e798(0x145))[0x0];_0x32459f[_0x70e798(0x16a)](_0x70e798(0x134),()=>{var _0x5cf604=_0x70e798;document[_0x5cf604(0x13a)](_0x5cf604(0x18f))[_0x5cf604(0x144)][_0x5cf604(0x16e)](_0x5cf604(0x174));}),_0x32459f[_0x70e798(0x16a)](_0x70e798(0x182),()=>{var _0x515d65=_0x70e798;document[_0x515d65(0x13a)](_0x515d65(0x18f))[_0x515d65(0x144)][_0x515d65(0x148)](_0x515d65(0x174));});}function selectClick(_0x7a3690){var _0x8a079b=_0x2961;setAllAselectBackgroundWrite(),document['getElementById'](_0x8a079b(0x164)+_0x7a3690)[_0x8a079b(0x147)][_0x8a079b(0x13f)]=_0x8a079b(0x17d);var _0x226d78=0x0;activeEssays=[];for(let _0x49e449=0x0;_0x49e449<essays[_0x8a079b(0x166)];_0x49e449++){essays[_0x49e449][_0x8a079b(0x157)]==_0x7a3690&&activeEssays['push'](essays[_0x49e449]);}updateActiveEssays();}function selectAllClick(){var _0x3c4e15=_0x2961,_0x5840f1=document['getElementById'](_0x3c4e15(0x170));_0x5840f1[_0x3c4e15(0x15e)]=null,setAllAselectBackgroundWrite(),document[_0x3c4e15(0x13a)]('aselect_all')[_0x3c4e15(0x147)][_0x3c4e15(0x13f)]='#eee';for(let _0x2a71d4=0x0;_0x2a71d4<essays['length'];_0x2a71d4++){var _0x42756f=createBlog(essays[_0x2a71d4],_0x2a71d4);_0x5840f1['appendChild'](_0x42756f);}activeEssays=essays;}flag=!![],window[_0x30692d(0x16a)](_0x30692d(0x143),_0x387430=>{flag&&(window['requestAnimationFrame'](()=>{scrollEvent(),flag=!![];}),flag=![]);});function scrollEvent(){var _0x2bdc38=_0x30692d;setHeadBottomFixed(window[_0x2bdc38(0x149)]);}headbottom=document[_0x30692d(0x13a)](_0x30692d(0x13c)),headbottomOffsetTop=headbottom[_0x30692d(0x185)],headbottomOffsetTopAddHeigth=headbottom[_0x30692d(0x185)]+headbottom[_0x30692d(0x151)];function setHeadBottomFixed(_0x1a5f12){var _0x3680f1=_0x30692d;if(_0x1a5f12>headbottomOffsetTopAddHeigth)headbottom[_0x3680f1(0x144)]['add'](_0x3680f1(0x15f));else _0x1a5f12<headbottomOffsetTop&&headbottom[_0x3680f1(0x144)][_0x3680f1(0x148)](_0x3680f1(0x15f));}
+/**
+ * 已经丢弃的js，确认无问题后将删除
+ * 自1.3.0版本后所有代码迁移新文件，不再维护该文件
+ */
+
+
+//系统监听的事件 包括点击事件
+window.onload = () => {
+    //一些用于初始化的函数
+    getDataFromServer(() => {
+        updateHead();
+        updateContentBlock();
+        updateBlogs();
+        updataSelects();
+    })
+    updateNumbers();
+
+    //其他初始化命令
+    
+    //设置网页进入时selects的样式
+    document.getElementById("aselect_all").style.backgroundColor = "#eee";
+}
+
+//文章点击
+/*
+ 依赖于全局变量activeEssays activeEssays数组中的变量与blogs中的内容一一对应
+ index参数为序号 表示点击的是activeEssays中的第index个
+ blogs的块的html中包含对应activeEssays的index变量
+ */
+function essaysClick(index) {
+    //console.log(activeEssays);
+    //console.log("博客点击\n序号：" + index);
+    //console.log(activeEssays[index].mode);
+    switch (activeEssays[index].mode) {
+        case "htmlmode":
+            window.open("./essays/" + activeEssays[index].id + "/index.html", "_blank");
+            break;
+        case "bilimode":
+            window.open("./essays/bilimodeview.html?" + "id=" + activeEssays[index].id, "_blank");
+            break;
+        case "amode":
+            window.open("./essays/" + activeEssays[index].id + "/index.html", "_blank");
+            break;
+        default:
+            console.error("文章类型错误，无法打开");
+            break;
+    }
+
+}
+//搜索
+function buttonclick() {
+    alert("这个功能还没有完成喵~");
+}
+
+//选择框点击
+function selectClick(lable) {
+    //初始化
+    var blogs = document.getElementById("blogs");
+    blogs.innerHTML = null;//清空所有essays
+    setAllAselectBackgroundWrite();
+    //设置点击的为灰色
+    document.getElementById("aselect_" + lable).style.backgroundColor = "#eee";
+    var i = 0;
+    //根据标签更新activeEssays
+    activeEssays = [];
+    for (let index = 0; index < essays.length; index++) {
+        if (essays[index].lable == lable) {
+            activeEssays.push(essays[index]);
+        }
+    }
+    //更新blogs的内容
+    for (let index = 0; index < activeEssays.length; index++) {
+        const element = activeEssays[index];
+        var essay = createBlog(element, index);
+        blogs.appendChild(essay);
+    }
+}
+
+//选择框所有点击
+function selectAllClick() {
+    var blogs = document.getElementById("blogs");
+    blogs.innerHTML = null;
+    //updateBlogs();
+    setAllAselectBackgroundWrite();
+    document.getElementById("aselect_all").style.backgroundColor = "#eee";
+    for (let index = 0; index < essays.length; index++) {
+        var essay = createBlog(essays[index], index);
+        blogs.appendChild(essay);
+    }
+    activeEssays = essays;
+}
+//1.1更新 异步加载服务端json的方法 主页的所有json加载均应在此完成
+/*
+加载服务器端json文件。参数为一个函数，用于更新标签的函数。
+*/
+function getDataFromServer(loadingCompletely) {
+    //console.log("开始加载服务器端json文件");
+    window.datasCompelety = new Object();
+
+
+    //console.log("abounts.json开始加载");
+    var aboutsXHR = new XMLHttpRequest();
+    window.aboutsCompletely = false;//是否加载完成的标记
+    window.abouts;//加载的json数据
+    aboutsXHR.onreadystatechange = () => {
+        if (aboutsXHR.readyState === 4 && aboutsXHR.status === 200) {
+            //console.log("abouts.json加载完成");
+            abouts = JSON.parse(aboutsXHR.responseText);
+            //console.log(abouts);
+            aboutsCompletely = true;
+            whenGetCompletely();
+        }
+    }
+    aboutsXHR.open("GET", "./json/abouts.json", true);
+    aboutsXHR.send();
+
+    //console.log("contentBlocks开始加载");
+    var contentBlocksXHR = new XMLHttpRequest();
+    window.contentBlocksCompletely = false;
+    window.contentBlocks;
+    contentBlocksXHR.onreadystatechange = () => {
+        if (contentBlocksXHR.readyState == 4 && contentBlocksXHR.status === 200) {
+            //console.log("contentBlocks完成加载");
+            contentBlocks = JSON.parse(contentBlocksXHR.responseText);
+            //console.log(contentBlocks);
+            contentBlocksCompletely = true;
+            whenGetCompletely();
+        }
+    }
+    contentBlocksXHR.open("GET", "./json/contentBlocks.json", true);
+    contentBlocksXHR.send();
+
+    //console.log("essays开始加载");
+    var essaysXHR = new XMLHttpRequest();
+    window.essaysCompletely = false;
+    window.essays;
+    essaysXHR.onreadystatechange = () => {
+        if (essaysXHR.readyState === 4 && essaysXHR.status === 200) {
+            //console.log("essays加载完成");
+            essays = JSON.parse(essaysXHR.responseText);
+            //console.log(essays);
+            essaysCompletely = true;
+            whenGetCompletely();
+        }
+    }
+    essaysXHR.open("GET", "./json/essays.json", true);
+    essaysXHR.send();
+
+
+    function getData(dataXHR, dataCompletely, data, way) {
+        dataXHR.onreadystatechange = () => {
+            if (dataXHR.readyState == 4 && dataXHR.status === 200) {
+                //console.log(way + "完成加载");
+                data = JSON.parse(dataXHR.responseText);
+                //console.log(data);
+                dataCompletely = true;
+                whenGetCompletely();
+            }
+        }
+        dataXHR.open("GET", way, true);
+        dataXHR.send();
+    }
+
+    //每次get数据后执行一次，如果所有json加载完成则执行下一步
+    function whenGetCompletely() {
+        console.log("get完成一个");
+        if (contentBlocksCompletely && aboutsCompletely && essaysCompletely) {
+            console.log("get动作完成");
+            loadingCompletely();
+        }
+    }
+}
+
+//更新html界面的方法
+
+//更新head展示的数值
+function updateNumbers() {
+    //coplit生成
+    let currentDate = new Date();
+    let targetDate = new Date('2024-01-07');
+    let timeDiff = Math.floor((currentDate - targetDate) / (86400000));
+    document.getElementById("run_day").innerHTML = timeDiff;
+}
+
+//更新head的部分的方法
+function updateHead() {
+    data = abouts;
+    //console.log("abouts:\n"+data);
+    document.getElementById("avatar").src = "./rec/" + data.avatar;
+    document.getElementById("name").innerHTML = data.name;
+    document.getElementById("motto").innerHTML = data.motto;
+    //document.getElementById("head_back").style.backgroundImage = "url(./rec/" + data.background + ")";
+}
+
+//更新博客部分的方法
+function updateBlogs() {
+
+    //有用的全局变量
+    //console.log("essays:\n"+data);
+    window.activeEssays = essays;
+    for (let index = 0; index < activeEssays.length; index++) {
+        var essay = createBlog(activeEssays[index], index);
+        blogs.appendChild(essay);
+        // console.log("插入了一个文章")
+    }
+    //var newHTML="<div class=\"ablog\" id=\"blog_"+"0\"><img src=\""+"\" ><div><h3>"+"</h3><p>"+"</p></div><div style=\"margin: 10px;margin-left: auto;\">分类："+"</div></div> "
+
+}
+
+//更新右侧信息面板的方法
+function updateContentBlock() {
+
+    var data = contentBlocks;
+    //console.log("contentBlocks:\n"+data);
+    var cotentBlocks = document.getElementById("mbody_right");
+    for (let index = 0; index < data.length; index++) {
+        var cotentBlock = createContentBlock(data[index]);
+        cotentBlocks.appendChild(cotentBlock);
+    }
+
+}
+
+//更新选择框
+function updataSelects() {//这里用到了更新blog时更新的全局变量essays 因此这个函数应当在更新blogs的方法之后引用
+
+    var data = essays;
+    //console.log(data);
+    var lables = new Set();
+    //console.log(data);
+    for (let index = 0; index < data.length; index++) {
+        const element = data[index];
+        if (element.lable != null) {
+            lables.add(element.lable);
+        }
+    }
+    var selects = document.getElementById("selects");
+    console.log(lables)
+    lables.forEach((lable) => {
+        selects.append(createAselectLable(lable));
+    })
+}
+
+
+
+
+//创造一些html块的方法
+
+//创造博客html
+//blog为博客内容 index为索引值，一般与当前显示的文章相对应，用于点击打开文章时确定点击的哪个
+function createBlog(blog, index) {
+    /**示例
+     * 
+        <div class="ablog" id="blog_text" onclick="essaysClick(0)">
+            <img src="./rec/1.png" alt="">
+            <div class="blog_text"> 
+                <div class="blog_title">
+                    <h3>关于本站</h3>
+                    <div class="blog_lable">标签：无</div>
+                </div>
+                <p>本站的内容简介</p>
+            </div>
+        </div>
+     */
+
+    var essay = document.createElement("div");
+    h="";
+
+    //创建图片 如果空则不创建
+    if (blog.picture != null) {
+        h += "<img src=\"./rec/" + blog.picture + "\" >";
+    }
+    else {
+        h += "<div class=\"nullimg\"></div>";
+    }
+
+    //创建文本内容
+    h += "<div class=\"blog_text\"> <div class=\"blog_title\"><h3>" + blog.title + "</h3>";
+    if (blog.lable != null) {
+        h += "<div class=\"blog_lable\">标签：" + blog.lable + "</div>";
+    }
+    else {
+        h += "<div class=\"blog_lable\"></div>";
+    }
+    h += "</div><p>" + blog.text + "</p></div>";
+
+    //console.log(h);
+
+    //设置属性
+    essay.innerHTML = h;
+    essay.className = "ablog";
+    essay.id = "blog_" + index;
+
+    //essay.onclick=essaysClick;    //正确的
+    //essay.onclick=essaysClick();  一个错误示例 这里onclick=essaysclick() 相当于先调用方法 再让onclick等于方法的返回值
+    //所以onclick不能加括号 这类似cpp里面的函数指针
+
+    essay.setAttribute("onclick", "essaysClick(" + index + ")");//直接设置onclick属性不会传参
+    return essay;
+}
+
+//创造博客分类选择的
+//lable为博客的标签 是索引 同时也是内容
+function createAselectLable(lable) {
+    /*示例
+        <li onclick="selectAllClick()">
+           <div class="aselect" id="aselect_all">
+                全部
+            </div>
+        </li>
+     */
+    var li = document.createElement("li");
+    li.innerHTML = "<div class=\"aselect\" id=\"aselect_" + lable + "\"> " + lable + " </div>";
+    li.setAttribute("onclick", "selectClick(\"" + lable + "\")");
+    return li;
+}
+
+//创造消息框
+function createContentBlock(cotentBlock) {
+    /*示例
+        <div class="content_block" id="abouts">
+           <div style="height: 50px;width: 100%;font-size: 20px;">我的信息</div>
+           <div style="height: 1px;width: 100%;background-color: #eee;"></div>
+           <div class="about">生日：3月15日</div>
+           <div class="about">学校：不知道奥</div>
+           <div class="about">爱好：无</div>
+        </div>
+     */
+    //console.log("一个消息块：\n"+cotentBlock);
+    var div = document.createElement("div");
+
+    div.id = cotentBlock.id; div.className = "content_block";
+    div.innerHTML = "<div style=\"height: 50px;width: 100%;font-size: 20px;\">" + cotentBlock.title + "</div>"
+    div.innerHTML += " <div style=\"height: 1px;width: 100%;background-color: #eee;\"></div>";
+    for (let index = 0; index < cotentBlock.items.length; index++) {
+        const element = cotentBlock.items[index];
+        div.innerHTML += element + "<br>";
+    }
+    return div;
+}
+
+
+
+//其它方法
+
+//将所有的asekect初始化为未选中的状态
+function setAllAselectBackgroundWrite() {
+    var aselects = document.getElementsByClassName("aselect");
+    //console.log(aselects);
+    for (let index = 0; index < aselects.length; index++) {
+        const element = aselects[index];
+        element.style.backgroundColor = "#ffffff"
+    }
+}

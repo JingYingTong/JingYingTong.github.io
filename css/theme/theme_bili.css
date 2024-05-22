@@ -25,3 +25,12 @@ body{
     height: 1px;
     background-color: #bbbbbb;
 }
+
+.head_bottom #selects .aselect:hover {
+    background-color: #f6f0f0;
+    color: #1090c0;
+}
+
+.head_bottom #selects .aselect-selected {
+    background-color: #f6f0f0;
+}

@@ -31,8 +31,7 @@
 .mhead #head_top #avatar1 {
     height: 65px;
     width: 65px;
-    border-radius: 33px;
-    background-color: #fff;
+    border-radius: 50%;
     margin-right: 15px;
 }
 
@@ -127,6 +126,17 @@
     padding: 18px;
 }
 
+.head_bottom #selects .aselect:hover {
+    background-color: #eee;
+    color: #1090c0;
+    font-weight: 900;
+}
+
+.head_bottom #selects .aselect-selected {
+    background-color: #eee;
+    color: #1090c0;
+    font-weight: 900;
+}
 .head_bottom #search {
     align-items: center;
     display: flex;
