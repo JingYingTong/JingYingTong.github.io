@@ -10,6 +10,7 @@
     flex-direction: column;
     overflow: hidden;
 }
+
 /* 头部的上半部分 ////////////////////////////////////////////////////////////*/
 .mhead #head_top {
     background-image: url(/rec/biliback.png);
@@ -53,19 +54,21 @@
 /* 头部的下半部分 //////////////////////////////////////////////////////////////*/
 .mhead .head_bottom {
     height: 60px;
-    top:-20px;
+    top: -20px;
     display: flex;
     justify-content: end;
     background-color: #fff;
     overflow: hidden;
-    transition: top 0.4s ;
+    transition: top 0.4s;
 }
+
 /* 为headbuttom设定下面的类时，固定headbuttom */
-.mhead .head_bottom_fixed{
+.mhead .head_bottom_fixed {
     width: 100vw;
-    left:  0px;
+    left: 0px;
     top: 0px;
-    position: fixed;;
+    position: fixed;
+    ;
     /* border: #000; */
 }
 
@@ -73,7 +76,7 @@
     margin-right: 10px;
     height: 100%;
     display: none;
-    
+
 }
 
 .head_bottom_fixed #head2 {
@@ -82,7 +85,7 @@
 }
 
 .head_bottom #head2 #avatar2 {
-    margin:8% 5px;
+    margin: 8% 5px;
     height: 84%;
     width: var(height);
     align-self: center;
@@ -137,6 +140,7 @@
     color: #1090c0;
     font-weight: 900;
 }
+
 .head_bottom #search {
     align-items: center;
     display: flex;
@@ -156,7 +160,7 @@
 }
 
 .head_bottom .search_box_focus {
-    border-color : #1090c0;
+    border-color: #1090c0;
 }
 
 .search_box .search_text {
@@ -168,6 +172,7 @@
     border-style: none;
     color: #000;
 }
+
 .search_box .search_button:hover {
     color: #10abd6;
 }
@@ -178,7 +183,28 @@
 
 
 .head_bottom #numbers {
-    align-items: center;
-    height: auto;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
     margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.head_bottom #numbers li {
+    list-style: none;
+    margin: 8px;
+    color: #333333;
+}
+
+.head_bottom #numbers li .number-title {
+    text-align: center;
+    font-size: 15px;
+    margin: 4px;
+}
+
+.head_bottom #numbers li .number {
+    text-align: center;
+    font-size: 14px;
+    margin: 4px;
 }

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="/css/forPhone.css">
     <link id="theme" rel="stylesheet" href="/css/theme/baseTheme.css">
 </head>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
 
 <body>
     <div id="main">
@@ -47,16 +49,24 @@
                 <div id="search">
                     <div id="search_box" class="search_box">
                         <input type="text" class="search_text">
-                        <a  href="javascript:searchButtonClick();"><i class="search_button fa fa-search" aria-hidden="true"></i></a>
+                        <a href="javascript:searchButtonClick();"><i class="search_button fa fa-search"
+                                aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <div id="numbers">
-                    <div style="margin: 8px;color: #333333;">
-                        <p style="text-align: center;font-size: 15px;margin: 4px;">运行天数</p>
-                        <p id="run_day" style="text-align: center;font-size: 14px;margin: 4px;">0</p>
-                    </div>
-                </div>
-
+                <ul id="numbers">
+                    <li>
+                        <p class="number-title">运行天数</p>
+                        <p id="run_day" class="number">0</p>
+                    </li>
+                    <li>
+                        <p class="number-title">访客数</p>
+                        <p class="number">
+                            <span id="busuanzi_container_site_pv">
+                                <span id="busuanzi_value_site_pv"></span>
+                            </span>
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
         <!-- main_body部分 -->
@@ -68,8 +78,8 @@
                     <h2>我的博客</h2>
                     <div class="split_line"></div>
                     <!-- <hr style="background-color: #eee;height: 1px;border-style: none;"> -->
-                    <div id="blogs">                     
-                       <!-- 示例 
+                    <div id="blogs">
+                        <!-- 示例 
                         <div class="ablog" id="blog_text" onclick="essaysClick(0)">
                             <img src="./rec/1.png" alt="">
                             <div class="blog_text"> 

@@ -249,10 +249,18 @@ function createFooter(footer) {
 
 //一些比较基础的，多次使用的方法//////////////////////////////////////////////
 
-//按照activeEssays的顺序创建博客
+//按照activeEssays创建博客
 function updateActiveEssays() {
+    //初始化
     var blogs = document.getElementById("blogs");
     blogs.innerHTML = null;//清空所有essays
+    //回滚到顶部
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    //更新
     //console.log("activeEssays:\n"+activeEssays);
     for (let index = 0; index < activeEssays.length; index++) {
         var essay = createBlog(activeEssays[index], index);

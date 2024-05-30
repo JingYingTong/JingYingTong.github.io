@@ -14,5 +14,12 @@
             "本网站建立于2024年1月7日",
             "网站通过github pages部署，访问速度较慢"
         ]
+    },
+    {
+        "title": "感谢",
+        "id": "thanks",
+        "items": [
+            "感谢<a href=\"https://busuanzi.ibruce.info/\">不蒜子</a>提供静态网页访问量统计支持"
+        ]
     }
 ]
