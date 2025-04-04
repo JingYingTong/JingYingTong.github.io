@@ -1,0 +1,128 @@
+[
+    {
+        "text": " ",
+        "deltime": 900,
+        "style": ""
+    },
+    {
+        "text": "  _____   _                   _                              _   _   _ ",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": " |_   _| ( )                 | |                            | | | | | |",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": "   | |   |/   _ __ ___       | |__     ___   _ __    ___    | | | | | | ",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": "   | |       | '_ ` _ \\      | '_ \\   / _ \\ | '__|  / _ \\   | | | | | |",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": "  _| |_      | | | | | |     | | | | |  __/ | |    |  __/   |_| |_| |_|",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": " |_____|     |_| |_| |_|     |_| |_|  \\___| |_|     \\___|   (_) (_) (_)",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": "\n",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": "                      --- Nice to meet you! ---",
+        "deltime": 0,
+        "style": ""
+    },
+    {
+        "text": "<br>",
+        "deltime": 1000,
+        "style": ""
+    }
+    ,
+    {
+        "text": "[ <span class='INFO'>INFO</span> ] 我是景樱彤(化名)，一名大学生。",
+        "deltime": 900,
+        "style": ""
+    }
+    ,
+    {
+        "text": "[ <span class='INFO'>INFO</span> ] 我喜欢电脑，喜欢和计算机科学有关的一切。",
+        "deltime": 1000,
+        "style": ""
+    }
+    ,
+    {
+        "text": "我喜欢编程。",
+        "deltime": 200,
+        "style": "color:#999"
+    }
+    ,
+    {
+        "text": "我喜欢捣鼓各种硬件。",
+        "deltime": 100,
+        "style": "color:#999;"
+    }
+    ,
+    {
+        "text": "我喜欢玩游戏。 ",
+        "deltime": 300,
+        "style": "color:#999;"
+    },
+    {
+        "text": "以上这些，但是不仅仅是这些。",
+        "deltime": 1000,
+        "style": "color:#999;"
+    }
+    ,
+    {
+        "text": "[ <span class='INFO'>INFO</span> ] 因为我的兴趣爱好，我正在做一些事。",
+        "deltime": 800,
+        "style": ""
+    },
+    {
+        "text": "为某些野鸡板子适配固件。",
+        "deltime": 400,
+        "style": "color:#999;"
+    },
+    {
+        "text": "组装一台令自己满意的nas。",
+        "deltime": 200,
+        "style": "color:#999;"
+    },
+    {
+        "text": "从零开始搭建一个个人博客。",
+        "deltime": 500,
+        "style": "color:#999;"
+    },
+    {
+        "text": "[ <span class='INFO'>INFO</span> ] 因为一些其它的原因，我正在做一些事。",
+        "deltime": 100,
+        "style": ""
+    },
+    {
+        "text": "学习，备战研考。",
+        "deltime": 200,
+        "style": "color:#999;"
+    },
+    {
+        "text": "[ <span class='INFO'>INFO</span> ]我的其它站点。",
+        "deltime": 1100,
+        "style": ""
+    }, 
+    {
+        "text": "博客：<a class='LINK' href=\"https://www.6gw.top\">www.6gw.top</a>",
+        "deltime": 1000,
+        "style": "color:#999;"
+    }
+]

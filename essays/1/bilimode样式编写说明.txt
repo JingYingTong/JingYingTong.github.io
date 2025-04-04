@@ -1,4 +1,0 @@
-index.html:
-    不是标准的html，里面仅包含一个<html>标签。编写时按照正常的编写网页的方法在<html>
-informations.json:
-    headtext:头上那一小块文字  title:标题 informentions:在标题下面附属的内容

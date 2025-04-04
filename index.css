@@ -1,269 +1,113 @@
-/* 移至/css/*处，此文件不再维护  */
-body {
-    background-color: #eee;
-    min-height: 100%;
-}
-
-#main {
-    margin-top: 2px;
-    width: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    min-height: 97vh;
-    display: flex;
-    flex-direction: column;
-}
-/*               head部分              */
-.head {
-    background-color: #fff;
-    margin-top: 0.2px;
-    /* border-style: outset; */
-    /* border-width: 2px;
-    border-color: #ffffff60;*/
-    border-radius: 5px;
-    height: 240px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.head #head_top {
-    background-image: url(./rec/biliback.png);
+body{
+    /* background-color: #000911; */
+    background-color: cornflowerblue;
+    background-image: url(src/1711292452975.jpg);
+    background-attachment:fixed;
     background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    height: 100vh;
+    width: 100vw;
 }
-
-.head #head_top #head1 {
-    /*包含头像的那一个长方形*/
-    height: 65px;
-    padding: 10px;
+.desktop{
+    height: 100%;
     width: 100%;
+    background-color:rgba(0, 8, 9,0);
+}
+
+
+.window{
+    position: absolute;
     display: flex;
+    position:fixed;
+    flex-flow: column;
+    top: 10%;
+    left: 20%;
+    height: 80%;
+    width: 60%;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: aliceblue;
+    overflow: hidden;
+    
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    backdrop-filter: blur(30px);
+    box-shadow: 4px 2px 15px 3px #555555bb;
 
 }
 
-.head #head_top #avatar {
-    height: 65px;
-    width: 65px;
-    border-radius: 33px;
-    background-color: #fff;
-    margin-right: 15px;
+.window .title_bar{
+    display: flex;
+    background-color: #f9f9f999;
+    width: 100%;
+    height: 28px;
+    user-select: none;
 }
-
-.head #head_top #name {
-    margin-top: 4px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
+.window .title_bar:active{
+    cursor: move;
 }
+.window .title_bar .buttons{
+    position:absolute;
+    display: flex;
+    left: 6px;
+    width: 100px;
+    padding-left: 0px;
+} 
 
-/*座右铭*/
-.head #head_top #motto {
-    margin-top: 6px;
+/* 虚拟按钮 */
+.window .title_bar .buttons .virbut {
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+    border-width: 2px;
+    cursor: not-allowed;
+}
+.window .title_bar .window_title{
+    text-align: center;
+    flex: 1;
+} 
+.window .text{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 15px;
+    flex: 1;
     color: #fff;
+    /* background-color: #000911; */
+    background-color: rgba(0, 8, 9,0.85);
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    cursor: text;
 }
 
-.head .head_bottom {
-    height: 60px;
-    display: flex;
-    justify-content: end;
+.text::selection{
+    color: black;
+    background-color: #ffffff;
 }
-
-
-.head_bottom #selects {
-    /*这是head里包含所有选项的复选框*/
-    /* align-items: center; */
+.text pre{
     margin: 0px;
     padding: 0px;
-    /* height: auto; */
-    height: 100%;
-    display: flex;
-    padding: auto;
-}
-
-.head_bottom #selects li {
-    /* margin-left: 25px; */
-    height: 100%;
-    list-style: none;
 
 }
 
-.head_bottom #selects .aselect {
-    /*li中嵌套的第一层dvi*/
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    /* background-color: #eee; */
-    height: 100%;
-    padding: 18px;
+.text .INFO{
+    color: #34ff34;
+}
+.text .INFO::selection{
+    background-color: #34ff34;
+    color: #000;
 }
 
-.head_bottom #search {
-    align-items: center;
-    display: flex;
-    margin-left: auto;
-    height: auto;
+.text .LINK:link{
+    color: #fff;
+}
+.text .LINK:visited{
+    color: #fff;
 }
 
-.search_box {
-    padding: 3.5px;
-    border: #66666666;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 1.5px;
+.window .bottom{
+    height: 16px;
+    background-color: #f9f9f9bb;
 }
-
-.search_box .input_text {
-    border-style: none;
-}
-
-.search_box .input_button {
-    border-style: none;
-
-}
-
-.search_box .input_text:focus {
-    border-style: none;
-}
-
-
-.head_bottom #numbers {
-    align-items: center;
-    height: auto;
-    margin-left: 20px;
-}
-
-/*   main body 代表head下面容纳博客的地方   */
-.mbody {
-    margin-top: 14px;
-    display: flex;
-
-}
-
-.mbody #mbody_left {
-    padding: 0px;
-    width: 69.5%;
-}
-
-.mbody #mbody_right {
-    margin-left: 1%;
-    padding: 0px;
-    width: 29.5%;
-}
-
-.mbody .content_block {
-    border-style: none;
-    border-width: 2px;
-    border-color: #ffffff60;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    height: max-content;
-    width: auto;
-    margin-top: 10px;
-}
-
-
-.mbody .ablog {
-    display: flex;
-    width: 100%;
-}
-
-.mbody .ablog .blog_text {
-    flex-grow: 1;/*text占满全部的剩余空间*/
-    padding-left: 15px;
-}
-
-.mbody .ablog .blog_text p {
-    margin: 0;
-}
-
-.mbody .ablog .blog_text .blog_title {
-    display: flex;
-}
-
-.mbody .ablog .blog_title .blog_lable {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: 15px;
-}
-
-.mbody .ablog img {
-    margin: 10px;
-    margin-left: 15px;
-    height: 120px;
-    width: 120px;
-    border-radius: 4px;
-}
-.mbody .ablog .nullimg {
-    margin: 10px;
-    margin-right: 15px;
-    height: 120px;
-    width: 120px;
-}
-
-.split_line {
-    height: 1px;
-    width: 100%;
-    background-color: #eee;
-}
-
-
-#foot {
-    padding-top: 20px;
-    text-align: center;
-}
-
-#foot .footer_line{
-    color: #555;
-    font-size: 18px;
-}
-#foot .footer_line img{
-    width: 16px;
-}
-
-@media screen and (orientation: portrait) {
-
-    /* 竖屏样式 */
-    #main {
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
-
-    .head .head_bottom {
-        flex-direction: column;
-    }
-
-    .head_bottom #search {
-        /* 直接隐藏 */
-        height: 0px;
-        visibility: hidden;
-    }
-
-    .head_bottom #numbers {
-        /* 直接隐藏 */
-        height: 0px;
-        visibility: hidden;
-    }
-
-    .mbody {
-        flex-direction: column;
-    }
-
-    .mbody #mbody_left {
-        width: 100%;
-    }
-
-    .mbody #mbody_right {
-        margin-top: 14px;
-        margin-left: 0%;
-        width: 100%;
-    }
-
-}
-
